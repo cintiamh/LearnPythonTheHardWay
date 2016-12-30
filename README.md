@@ -3,6 +3,7 @@
 Learn Python The Had Way from http://learnpythonthehardway.org/book/
 
 * [Setup](#setup)
+* [A Good First Program](#a-good-first-program)
 
 ## Setup
 
@@ -18,4 +19,24 @@ To exit, type:
 
 ```
 $ quit()
+```
+
+## A Good First Program
+
+Type the following text into a single file named `ex1.py`. Python works best with files ending in `.py`.
+
+```python
+print "Hello World!"
+print "Hello Again"
+print "I like typing this."
+print "This is fun."
+print 'Yay! Printing.'
+print "I'd much rather you 'not'."
+print 'I "said" do not touch this.'
+```
+
+In terminal run:
+
+```
+$ python src/ex1.py
 ```
