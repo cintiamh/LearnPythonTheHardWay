@@ -2,6 +2,8 @@
 
 Learn Python The Had Way from http://learnpythonthehardway.org/book/
 
+## Index
+
 * [Setup](#setup)
 * [A Good First Program](#a-good-first-program)
 
@@ -21,7 +23,7 @@ To exit, type:
 $ quit()
 ```
 
-[Back to top](#learn-python-the-hard-way)
+[Back to top](#index)
 
 ## A Good First Program
 
@@ -43,4 +45,4 @@ In terminal run:
 $ python src/ex1.py
 ```
 
-[Back to top](#learn-python-the-hard-way)
+[Back to top](#index)
