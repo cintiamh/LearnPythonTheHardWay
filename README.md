@@ -21,6 +21,8 @@ To exit, type:
 $ quit()
 ```
 
+[Back to top](#LearnPythonTheHardWay)
+
 ## A Good First Program
 
 Type the following text into a single file named `ex1.py`. Python works best with files ending in `.py`.
@@ -40,3 +42,5 @@ In terminal run:
 ```
 $ python src/ex1.py
 ```
+
+[Back to top](#LearnPythonTheHardWay)
