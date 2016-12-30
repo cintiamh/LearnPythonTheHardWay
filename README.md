@@ -6,6 +6,7 @@ Learn Python The Had Way from http://learnpythonthehardway.org/book/
 
 * [Setup](#setup)
 * [A Good First Program](#a-good-first-program)
+* [Comments and Pound Characters](#comments-and-pound-characters)
 
 ## Setup
 
@@ -43,6 +44,16 @@ In terminal run:
 
 ```
 $ python src/ex1.py
+```
+
+[Back to top](#index)
+
+## Comments and Pound Characters
+
+To write a comment, just use the pound sign `#`:
+
+```python
+# A comment, this is so you can read your program later.
 ```
 
 [Back to top](#index)
