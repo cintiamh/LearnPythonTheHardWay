@@ -1,4 +1,4 @@
-# LearnPythonTheHardWay
+# Learn Python The HardWay
 
 Learn Python The Had Way from http://learnpythonthehardway.org/book/
 
@@ -21,7 +21,7 @@ To exit, type:
 $ quit()
 ```
 
-[Back to top](#LearnPythonTheHardWay)
+[Back to top](#learn-python-the-hard-way)
 
 ## A Good First Program
 
@@ -43,4 +43,4 @@ In terminal run:
 $ python src/ex1.py
 ```
 
-[Back to top](#LearnPythonTheHardWay)
+[Back to top](#learn-python-the-hard-way)
