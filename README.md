@@ -7,6 +7,7 @@ Learn Python The Had Way from http://learnpythonthehardway.org/book/
 * [Setup](#setup)
 * [A Good First Program](#a-good-first-program)
 * [Comments and Pound Characters](#comments-and-pound-characters)
+* [Numbers and Math](#numbers-and-math)
 
 ## Setup
 
@@ -55,5 +56,21 @@ To write a comment, just use the pound sign `#`:
 ```python
 # A comment, this is so you can read your program later.
 ```
+
+[Back to top](#index)
+
+## Numbers and Math
+
+Used math symbols:
+
+* `+` plus
+* `-` minus
+* `/` slash
+* `*` asterisk
+* `%` percent
+* `<` less than
+* `>` greater than
+* `<=` less-than-equal
+* `>=` greater-than-equal
 
 [Back to top](#index)
