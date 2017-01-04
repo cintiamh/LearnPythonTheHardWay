@@ -14,7 +14,9 @@ Learn Python The Had Way from http://learnpythonthehardway.org/book/
 * [More Printing](#more-printing)
 * [Printing Printing](#printing-printing)
 * [Printing Printing Printing](#printing-printing-printing)
-* [What was that?](what-was-that)
+* [What was that?](#what-was-that)
+* [Asking Questions](#asking-questions)
+* [Prompting People](#prompting-people)
 
 ## Setup
 
@@ -293,3 +295,39 @@ Note: If you use `\U` or `\u` then you'll need to use a unicode string in `u'\U0
 [Back to top](#index)
 
 ## Asking Questions
+
+```python
+print "How old are you?",
+age = raw_input()
+print "How tall are you?",
+height = raw_input()
+print "How much do you weigh?",
+weight = raw_input()
+
+print "So, you're %r old, %r tall and %r heavy." % (
+    age, height, weight)
+```
+
+[Back to top](#index)
+
+## Prompting People
+
+For `raw_input` you can also put in a prompt to show to a person so he knows what to type.
+Put a string that you want for the prompt inside the `()`:
+
+```python
+y = raw_input("Name? ")
+```
+
+```python
+age = raw_input("How old are you? ")
+height = raw_input("How tall are you? ")
+weight = raw_input("How much do you weigh? ")
+
+print "So, you're %r old, %r tall and %r heavy." % (
+    age, height, weight)
+```
+
+You can check the documentation by typing `pydoc raw_input` in your terminal.
+
+[Back to top](#index)
