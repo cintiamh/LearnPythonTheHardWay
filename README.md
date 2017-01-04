@@ -14,6 +14,7 @@ Learn Python The Had Way from http://learnpythonthehardway.org/book/
 * [More Printing](#more-printing)
 * [Printing Printing](#printing-printing)
 * [Printing Printing Printing](#printing-printing-printing)
+* [What was that?](what-was-that)
 
 ## Setup
 
@@ -248,3 +249,47 @@ Even 4 lines if we want, or 5, or 6.
 ```
 
 [Back to top](#index)
+
+## What was that?
+
+The `\` (backslash) character encodes difficult-to-type characters into a string.
+
+`\\`	Backslash (\)
+`\'`	Single-quote (')
+`\"`	Double-quote (")
+`\a`	ASCII bell (BEL)
+`\b`	ASCII backspace (BS)
+`\f`	ASCII formfeed (FF)
+`\n`	ASCII linefeed (LF)
+`\N{name}`	Character named name in the Unicode database (Unicode only)
+`\r`	Carriage Return (CR)
+`\t`	Horizontal Tab (TAB)
+`\uxxxx`	Character with 16-bit hex value xxxx (u'' string only)
+`\Uxxxxxxxx`	Character with 32-bit hex value xxxxxxxx (u'' string only)
+`\v`	ASCII vertical tab (VT)
+`\ooo`	Character with octal value ooo
+`\xhh`	Character with hex value hh
+
+```python
+tabby_cat = "\tI'm tabbed in."
+persian_cat = "I'm split\non a line."
+backslash_cat = "I'm \\ a \\ cat."
+
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print tabby_cat
+print persian_cat
+print backslash_cat
+print fat_cat
+```
+
+Note: If you use `\U` or `\u` then you'll need to use a unicode string in `u'\U0001F47E'`. Put a `u` in front of the `''` (single-quotes) or `""` (double-quotes).
+
+[Back to top](#index)
+
+## Asking Questions
