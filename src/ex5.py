@@ -16,3 +16,25 @@ print "His teeth are usually %s depending on the coffee." % my_teeth
 # this line is tricky, try to get it exactly right
 print "If I add %d, %d, and %d I get %d." % (
     my_age, my_height, my_weight, my_age + my_height + my_weight)
+
+# How to replace a character in a string with a variable?
+my_grade = 'A'
+print "My grade was %c." % my_grade
+
+# How to replace a signed integer decimal in a string with a variable?
+cups = 6
+temperature = -10
+print "I have %d cups of water" % cups
+print "It's around %i celcius temperature." % temperature
+
+# How to replace a generic value in a string with a variable?
+days = 365
+print "The year has %r days." % days
+bob = "Bob"
+print "His name is %r." % bob
+
+# How to replace a string value in a string with a variable? (converted with str())
+days = 365
+print "The year has %s days." % days
+bob = "Bob"
+print "His name is %s." % bob

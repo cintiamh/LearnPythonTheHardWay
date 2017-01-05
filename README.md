@@ -17,6 +17,7 @@ Learn Python The Had Way from http://learnpythonthehardway.org/book/
 * [What was that?](#what-was-that)
 * [Asking Questions](#asking-questions)
 * [Prompting People](#prompting-people)
+* [Parameters, Unpacking, Variables](#parameters-unpacking-variables)
 
 ## Setup
 
@@ -329,5 +330,35 @@ print "So, you're %r old, %r tall and %r heavy." % (
 ```
 
 You can check the documentation by typing `pydoc raw_input` in your terminal.
+
+[Back to top](#index)
+
+## Parameters, Unpacking, Variables
+
+We can also write scripts that accepts arguments.
+
+```python
+from sys import argv
+
+script, first, second, third = argv
+
+print "The script is called:", script
+print "Your first variable is:", first
+print "Your second variable is:", second
+print "Your third variable is:", third
+```
+
+and run like:
+
+```
+$ python ex13.py first 2nd 3rd
+```
+
+The first line imports argv (argument variable) from sys. The variable holds the
+arguments you pass to your Python script when you run it.
+
+The second line unpacks `argv` into separated variables.
+
+The `import` imports what is called `modules`.
 
 [Back to top](#index)
