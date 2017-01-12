@@ -18,6 +18,8 @@ Learn Python The Had Way from http://learnpythonthehardway.org/book/
 * [Asking Questions](#asking-questions)
 * [Prompting People](#prompting-people)
 * [Parameters, Unpacking, Variables](#parameters-unpacking-variables)
+* [Prompting and passing](#prompting-and-passing)
+* [Reading Files](#reading-files)
 
 ## Setup
 
@@ -364,3 +366,68 @@ The `import` imports what is called `modules`.
 [Back to top](#index)
 
 ## Prompting and passing
+
+More examples.
+
+```python
+from sys import argv
+
+script, user_name = argv
+prompt = '> '
+
+print "Hi %s, I'm the %s script." % (user_name, script)
+print "I'd like to ask you a few questions."
+print "Do you like me %s?" % user_name
+likes = raw_input(prompt)
+
+print "Where do you live %s?" % user_name
+lives = raw_input(prompt)
+
+print "What kind of computer do you have?"
+computer = raw_input(prompt)
+
+print """
+Alright, so you said %r about liking me.
+You live in %r.  Not sure where that is.
+And you have a %r computer.  Nice.
+""" % (likes, lives, computer)
+```
+
+[Back to top](#index)
+
+## Reading Files
+
+We'll have two files: a script file `ex15.py` and a text file: `ex15_sample.txt`.
+
+```
+This is stuff I typed into a file.
+It is really cool stuff.
+Lots and lots of fun to have in here.
+```
+
+We want to use the script to open the text file.
+
+```python
+from sys import argv
+
+script, filename = argv
+
+txt = open(filename)
+
+print "Here's your file %r:" % filename
+print txt.read()
+
+print "Type the filename again:"
+file_again = raw_input("> ")
+
+txt_again = open(file_again)
+
+print txt_again.read()
+```
+
+The open() command is the method that actually opens the file and returns a
+"file object". And the read() method returns the string from the file.
+
+You should use the txt.close() after you are finished with the file.
+
+[Back to top](#index)
